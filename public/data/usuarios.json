@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "nombres":"Carlos Perez",
+        "nombreusuario": "carlosperez",
+        "password":"carlos123456",
+        "correo":"carlosp@correo.com",
+        "telefono":"3202562458",
+        "rol":"admin"
+    },
+    {
+        "id":2,
+        "nombres":"Marina Sepulveda",
+        "nombreusuario": "marinasepul",
+        "password":"marina123456",
+        "correo":"marinas@correo.com",
+        "telefono":"354545888",
+        "rol":"user"
+    }
+]

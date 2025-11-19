@@ -1,0 +1,16 @@
+[
+    {
+        "id": 3,
+        "nombre": "Yuca",
+        "descripcion": "Brava",
+        "precio": 1500,
+        "cantidad": 30
+    },
+    {
+        "id": 6,
+        "nombre": "Cebolla",
+        "descripcion": "Roja",
+        "precio": 2850,
+        "cantidad": 45
+    }
+]
