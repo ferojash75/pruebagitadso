@@ -5,6 +5,8 @@ const express = require('express')
 const path = require('path')
 const fs = require('fs')
 const cors = require('cors')
+const dotenv = require('dotenv')
+dotenv.config()
 
 //importar los datos Json de los productos
 const mibd = require('./public/data/productos.json')
@@ -12,7 +14,7 @@ const mibd = require('./public/data/productos.json')
 const mibdu = require('./public/data/usuarios.json')
 
 //puerto para la aplicación
-const puerto = 3650
+const puerto = process.env.PUERTO
 
 //constante para nuestra aplicación
 const app = express()
